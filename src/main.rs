@@ -150,9 +150,12 @@ fn main() {
     }}
     figure {{
       display: block;
-      margin-left: 20%;
-      margin-right: 20%;
       text-align: center;
+    }}
+    pre {{
+      background-color: #202020;
+      border-radius: 0.5em;
+      padding: 0.5em;
     }}
     blockquote {{
       color: #FFF0D8;
@@ -160,6 +163,7 @@ fn main() {
       font-style: italic;
       border-left: .2em solid #606058;
       padding-left: 1em;
+      border-radius: 0.3em;
     }}
     blockquote:before {{
       content: '“';
