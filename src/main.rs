@@ -155,8 +155,31 @@ fn main() {
       text-align: center;
     }}
     blockquote {{
-      color: #FFEFB0;
-      background-color: #101028;
+      color: #FFF0D8;
+      background-color: #101018;
+      font-style: italic;
+      border-left: .2em solid #606058;
+      padding-left: 1em;
+    }}
+    blockquote:before {{
+      content: '“';
+    }}
+    blockquote:after {{
+      content: '”';
+    }}
+    a {{
+      padding-left: 0.2em;
+      padding-right: 0.2em;
+    }}
+    a:link {{
+      color: #40D0FF;
+    }}
+    a:visited {{
+      color: #A050E0;
+    }}
+    a:hover {{
+      background-color: #202020;
+      border-radius: 0.4em;
     }}
   </style>
 </head>
